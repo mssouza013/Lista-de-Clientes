@@ -16,7 +16,7 @@ namespace Lista_de_Telefone
 
         private void btnIncluir_Click(object sender, EventArgs e)
         {
-           Telefone telefone = new Telefone();
+            Telefone telefone = new Telefone();
             telefone.Nome = "Um nome ai";
 
             telefone.Numero = 40028922;

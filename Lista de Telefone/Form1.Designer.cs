@@ -137,18 +137,20 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Location = new System.Drawing.Point(518, 405);
+            this.btnIncluir.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnIncluir.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnIncluir.Location = new System.Drawing.Point(433, 398);
             this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(175, 23);
+            this.btnIncluir.Size = new System.Drawing.Size(204, 40);
             this.btnIncluir.TabIndex = 7;
             this.btnIncluir.Text = "Incluir Número";
-            this.btnIncluir.UseVisualStyleBackColor = true;
+            this.btnIncluir.UseVisualStyleBackColor = false;
             this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Red;
+            this.label4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Snow;
             this.label4.Location = new System.Drawing.Point(298, 23);
